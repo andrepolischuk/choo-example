@@ -1,9 +1,11 @@
 import fetch from 'isomorphic-fetch'
 
 export default function store (state, emitter) {
-  state.users = []
-  state.error = null
-  state.fetching = false
+  if (!state.users) {
+    state.users = []
+    state.error = null
+    state.fetching = false
+  }
 
   emitter.on('addUser', async login => {
     const exists = state.users.find(us => us.login === login)

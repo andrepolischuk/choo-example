@@ -32,6 +32,7 @@ npm run build
 
 * [choo](https://github.com/choojs/choo)
 * [choo-log](https://github.com/choojs/choo-log)
+* [choo-persist](https://github.com/yoshuawuyts/choo-persist)
 * [webpack](https://github.com/webpack/webpack)
 * [babel](https://github.com/babel/babel)
 * [css modules](https://github.com/css-modules/css-modules)
